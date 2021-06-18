@@ -1,0 +1,10 @@
+body{
+    background-image: url(../Images/bk.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.form-inp{
+    text-align: center;
+}
