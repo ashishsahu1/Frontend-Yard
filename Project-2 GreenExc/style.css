@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header{
+    background-color: #272727;
+    padding: 0px;
+    color: white;
+    text-align: center;
+}
+
+.header li{
+    display: inline-block;
+    padding: 0 10% 0 0;
+    text-align: center;
+}
+
+.header li a{
+    color: white;
+    text-decoration: none;
+}
+
+.header .butt{
+    background-color: #26cc5d;
+    font-weight: 900;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.nav{
+    background-color: white;
+    padding: 20px;
+}
+
+.nav ul{
+    text-align: center;  
+}
+
+.nav li{
+    display: inline-block;
+
+}
+
+.nav li a{
+    padding: 0 50px 0 0;
+    color: #272727;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15pt;
+    text-align: center;
+}
+
+.nav li .title{
+    font-family: 'Sacramento', cursive;
+    font-size: 30pt;
+    padding-right:50px;
+}
+
+.nav .title{
+    display: inline-block;
+    /* background-color: aqua; */
+    font-family: 'Sacramento', cursive;
+    font-size: 30pt;
+}
+
+.banner{
+    background-color: #272727;
+    padding: 120px;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner p:nth-child(1){
+    font-size: 10pt;
+    font-weight: 100;
+    letter-spacing: 5px;
+}
+
+.banner p:nth-child(2){
+    font-size: 50pt;
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+
+.banner .buttons{
+    padding: 40px 0px 0px 0px;
+}
+
+.banner .buttons a{
+    text-decoration: none;
+    color: white;
+    background-color: #26cc5d;
+    padding: 15px;
+    margin: 10px;
+    font-weight: 900;
+}
+
+.icon-container{
+    background-color: white;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.icon-container .icon-box{
+    background-color: #27272734;
+    display: inline-block;
+    width: 20%;
+    margin: 50px;
+    padding: 50px 50px 50px 50px;
+}
+
+.icon-container .icon-box p:nth-child(1){
+    font-size: 150pt;
+    font-weight: 900;
+    color: white;
+}
+
+.icon-container .icon-box p:nth-child(2){
+    font-size: 10pt;
+    font-weight: 900;
+    color: white;
+}
+
