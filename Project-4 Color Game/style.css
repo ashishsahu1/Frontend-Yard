@@ -1,0 +1,49 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+    font-family: sans-serif;
+}
+
+p{
+    font-size: 40px;
+    color: rgb(20, 20, 20);
+    text-align: center;
+    padding: 40px;
+}
+.container{
+    display: flexbox;
+    text-align: center;
+    width: 100vw;
+    height: 80vh;
+}
+
+.box{
+    background-color: rgb(83, 241, 241);
+    padding: 30px;
+    display: inline-block;
+    transition-duration: 0.5s;
+    top: 50%;
+    margin-top: 20%;
+}
+
+.box:hover{
+    transform: scaleY(10);
+}
+
+.c1{
+    background-color: aqua;
+}
+.c2{
+    background-color: blueviolet;
+}
+.c3{
+    background-color: coral;
+}
+.c4{
+    background-color: cornflowerblue;
+}
+.c5{
+    background-color: gold;
+}
