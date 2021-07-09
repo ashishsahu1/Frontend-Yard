@@ -7,6 +7,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
 }
 
 header{
@@ -54,21 +55,28 @@ nav .search input[type=text]:focus{
 }
 
 nav ul{
-    padding: 0 0 0 300px;
+    /* margin: 0 0 0 30vw; */
+    padding: 0 0 0 20vw;
     display: flex;
     justify-content: flex-start;
     height: 70px;
     align-items: center;
+
+}
+
+@media screen and (max-width: 1024px){
+    nav ul{
+        padding: 0 0 0 0;
+    }
 }
 
 nav ul li{
+    width: 50px;
+    display: inline-block;
     list-style: none;
     padding: 0 23px;
     font-weight: 700;
 }
-
-
-
 
 footer{
     height: 30vh;
