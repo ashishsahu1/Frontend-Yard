@@ -55,10 +55,9 @@ nav .search input[type=text]:focus{
 }
 
 nav ul{
-    /* margin: 0 0 0 30vw; */
     padding: 0 0 0 20vw;
     display: flex;
-    justify-content: flex-start;
+    justify-content:right;
     height: 70px;
     align-items: center;
 
@@ -71,11 +70,16 @@ nav ul{
 }
 
 nav ul li{
-    width: 50px;
-    display: inline-block;
+    column-gap: 2px;
+    font-size: 12pt;
+    display: flex;
     list-style: none;
     padding: 0 23px;
     font-weight: 700;
+}
+
+nav ul li i{
+    margin: 0 0 10px 0;
 }
 
 footer{
