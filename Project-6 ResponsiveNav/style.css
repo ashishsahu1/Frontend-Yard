@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+    background-color: blueviolet;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo{
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 80px;
+    padding: 0 2vw;
+    margin-left: 40px;
+}
+
+nav ul{
+    float: right;
+    /* margin-right: 20px; */
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    /* margin: 0 5px; */
+    padding:0 20px 0 20px;
+    transition-duration: 1s;
+}
+
+nav ul li:hover{
+    background-color: rgb(99, 27, 167);
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px ;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+@media(max-width:850px){
+    label.logo{
+        font-size: 30px;
+    }
+}
+
+@media(max-width:760px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        background-color:blueviolet;
+        text-align: center;
+        height: 100vh;
+        top: 80px;
+        width: 50%;
+        left: -100%;
+        transition: all 1s;
+        transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+
+    nav ul li{
+        display: block;
+    }
+    nav ul li a{
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: 3pt;
+    }
+    #check:checked ~ ul{
+        left: 0%;
+    }
+}
+
+.div1{
+    background-color: bisque;
+    height: 100vh;
+}
+
+.div2{
+    background-color: aquamarine;
+    height: 100vh;
+}
+
+.div3{
+    background-color: coral;
+    height: 100vh;
+}
