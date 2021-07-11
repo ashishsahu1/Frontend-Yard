@@ -63,12 +63,6 @@ nav ul{
 
 }
 
-@media screen and (max-width: 1024px){
-    nav ul{
-        padding: 0 0 0 0;
-    }
-}
-
 nav ul li{
     column-gap: 2px;
     font-size: 12pt;
@@ -80,6 +74,12 @@ nav ul li{
 
 nav ul li i{
     margin: 0 0 10px 0;
+}
+
+@media only screen and (max-width: 1254px) {
+    nav ul{
+        padding: 0 0 0 5vw;
+    }
 }
 
 footer{
